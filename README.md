@@ -5,17 +5,10 @@
 
 Robot cộng tác UR3 quan sát con người bằng camera Kinect v2, mô hình hóa cơ thể người thành các vật cản trong môi trường lập kế hoạch, và tái lập kế hoạch đường đi theo thời gian thực bằng thuật toán **D\* Lite** để tiếp tục làm việc mà không va chạm với người. **Vùng đệm an toàn quanh tay người tự giãn hoặc co theo vận tốc tương đối** giữa robot và con người. Hệ thống được kiểm thử trên mô phỏng (ROS / RViz / MoveIt) và trên **robot UR3 thật** tại Phòng thí nghiệm Nhà máy số thông minh, HUST.
 
-## Demo
+## Video
 
-**Video trên robot UR3 thật:**
-
-[![Video UR3 1](https://img.youtube.com/vi/SJiaFyxoogo/hqdefault.jpg)](https://www.youtube.com/shorts/SJiaFyxoogo)
-[![Video UR3 2](https://img.youtube.com/vi/bc3Dyy7bOyY/hqdefault.jpg)](https://www.youtube.com/watch?v=bc3Dyy7bOyY)
-
-**Trong RViz:**
-
-<p align="center"><img src="images/demo.gif" width="90%" alt="Demo robot UR3 tránh tay người trong RViz"></p>
-<p align="center"><i>Bên trái: ảnh Kinect v2 với khung xương MediaPipe. Bên phải: RViz/MoveIt với mô hình người (xanh lá), vùng đệm quanh tay và đường đi D* Lite (ô đỏ) từ điểm đầu đến điểm đích. Video tăng tốc 2 lần.</i></p>
+- https://www.youtube.com/shorts/SJiaFyxoogo
+- https://www.youtube.com/watch?v=bc3Dyy7bOyY
 
 ## Điểm nổi bật
 
